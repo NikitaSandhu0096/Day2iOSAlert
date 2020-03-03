@@ -15,6 +15,19 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    @IBAction func btnShowAlert(_ sender: UIButton) {
+        if sender.tag == 0{
+            let alertController = UIAlertController(title: "iOScreator", message:
+            "Hello, world!", preferredStyle: .alert)
+        alertController.addAction(UIAlertAction(title: "Dismiss", style: .default))
 
+        self.present(alertController, animated: true, completion: nil)    }
+        if sender.tag == 1{
+            let alertController = UIAlertController(title: "iOScreator", message:
+                "Hello, world!", preferredStyle: .alert)
+            alertController.addAction(UIAlertAction(title: "Dismiss", style: .default))
+
+            self.present(alertController, animated: true, completion: nil)        }
+    }
 }
 
