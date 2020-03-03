@@ -23,8 +23,18 @@ class SecondViewController: UIViewController {
     
 
     @IBAction func segImageChange(_ sender: UISegmentedControl) {
+        displayImage(index: sender.selectedSegmentIndex)
+    }
+    
+    @IBAction func slideChangeImage(_ sender: UISlider) {
+        print(Int(sender.value))
+        
+        displayImage(index: Int(sender.value))
+    }
+    
+    private func displayImage(index : Int){
         var imageName = String()
-        switch sender.selectedSegmentIndex {
+        switch index {
         case 0:
             imageName = "lion"
         
@@ -44,8 +54,7 @@ class SecondViewController: UIViewController {
             print("No Image Selected")
         }
         
-        self.imgCircus.image = UIImage(named: imageName)
-    }
+        self.imgCircus.image = UIImage(named: imageName)    }
     /*
     // MARK: - Navigation
 
