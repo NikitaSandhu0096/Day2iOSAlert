@@ -52,7 +52,7 @@
         <!--B-->
         <scene sceneID="PHt-4d-wCl">
             <objects>
-                <viewController id="hLf-zP-0QX" sceneMemberID="viewController">
+                <viewController id="hLf-zP-0QX" customClass="SecondViewController" customModule="Day2iOSAlert" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="25h-4l-1jw">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -72,6 +72,9 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="imgCircus" destination="9p4-1b-a4A" id="Dfe-BU-xJD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SgS-3E-yGb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
