@@ -14,7 +14,7 @@
 		9B52F2AC240DD32B00E0E6EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B52F2AB240DD32B00E0E6EE /* Assets.xcassets */; };
 		9B52F2AF240DD32B00E0E6EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B52F2AD240DD32B00E0E6EE /* LaunchScreen.storyboard */; };
 		9B52F2B9240DE17A00E0E6EE /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B52F2B8240DE17A00E0E6EE /* SecondViewController.swift */; };
-		9B52F2C0240DEBE500E0E6EE /* ice cream.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B52F2BB240DEBE400E0E6EE /* ice cream.png */; };
+		9B52F2C0240DEBE500E0E6EE /* icecream.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B52F2BB240DEBE400E0E6EE /* icecream.png */; };
 		9B52F2C1240DEBE500E0E6EE /* gorilla.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B52F2BC240DEBE500E0E6EE /* gorilla.png */; };
 		9B52F2C2240DEBE500E0E6EE /* elephant.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B52F2BD240DEBE500E0E6EE /* elephant.png */; };
 		9B52F2C3240DEBE500E0E6EE /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B52F2BE240DEBE500E0E6EE /* home.png */; };
@@ -31,7 +31,7 @@
 		9B52F2AE240DD32B00E0E6EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B52F2B0240DD32B00E0E6EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B52F2B8240DE17A00E0E6EE /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		9B52F2BB240DEBE400E0E6EE /* ice cream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ice cream.png"; sourceTree = "<group>"; };
+		9B52F2BB240DEBE400E0E6EE /* icecream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icecream.png; sourceTree = "<group>"; };
 		9B52F2BC240DEBE500E0E6EE /* gorilla.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gorilla.png; sourceTree = "<group>"; };
 		9B52F2BD240DEBE500E0E6EE /* elephant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = elephant.png; sourceTree = "<group>"; };
 		9B52F2BE240DEBE500E0E6EE /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
@@ -87,7 +87,7 @@
 				9B52F2BD240DEBE500E0E6EE /* elephant.png */,
 				9B52F2BC240DEBE500E0E6EE /* gorilla.png */,
 				9B52F2BE240DEBE500E0E6EE /* home.png */,
-				9B52F2BB240DEBE400E0E6EE /* ice cream.png */,
+				9B52F2BB240DEBE400E0E6EE /* icecream.png */,
 				9B52F2BF240DEBE500E0E6EE /* lion.png */,
 			);
 			path = Images;
@@ -154,7 +154,7 @@
 				9B52F2C2240DEBE500E0E6EE /* elephant.png in Resources */,
 				9B52F2AF240DD32B00E0E6EE /* LaunchScreen.storyboard in Resources */,
 				9B52F2C3240DEBE500E0E6EE /* home.png in Resources */,
-				9B52F2C0240DEBE500E0E6EE /* ice cream.png in Resources */,
+				9B52F2C0240DEBE500E0E6EE /* icecream.png in Resources */,
 				9B52F2AC240DD32B00E0E6EE /* Assets.xcassets in Resources */,
 				9B52F2C4240DEBE500E0E6EE /* lion.png in Resources */,
 				9B52F2C1240DEBE500E0E6EE /* gorilla.png in Resources */,

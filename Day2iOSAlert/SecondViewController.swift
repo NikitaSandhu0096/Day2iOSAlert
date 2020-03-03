@@ -15,9 +15,37 @@ class SecondViewController: UIViewController {
         super.viewDidLoad()
 
         imgCircus.image = UIImage(named: "lion")
+        
+    //    imgCircus.image = #imageLiteral(resourceName: <#T##String#>)
+        
+    //    imgCircus.backgroundColor = #colorLiteral(red: 0.9372549057, green: 0.3490196168, blue: 0.1921568662, alpha: 1)
     }
     
 
+    @IBAction func segImageChange(_ sender: UISegmentedControl) {
+        var imageName = String()
+        switch sender.selectedSegmentIndex {
+        case 0:
+            imageName = "lion"
+        
+        case 1:
+            imageName = "elephant"
+            
+        case 2:
+            imageName = "gorilla"
+            
+        case 3:
+            imageName = "icecream"
+
+        case 4:
+            imageName = "home"
+        
+        default:
+            print("No Image Selected")
+        }
+        
+        self.imgCircus.image = UIImage(named: imageName)
+    }
     /*
     // MARK: - Navigation
 
